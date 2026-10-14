@@ -1,0 +1,6 @@
+# Unity WebGL 建置產物：避免 Windows 換行轉換破壞二進位/大型檔
+*.wasm binary
+*.data binary
+*.symbols binary
+*.framework.js -text
+*.loader.js -text

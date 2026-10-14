@@ -1,0 +1,43 @@
+name: Deploy static WebGL build to Pages
+
+# 觸發時機：
+#   1. push 到 main，且 public/ 內容有變動時
+#   2. 手動在 Actions 頁面點 "Run workflow"
+#
+# 這個 workflow「不」建置 Unity，只把已提交到 public/ 的
+# 靜態 WebGL 產物上傳並部署到 GitHub Pages。
+# Pages Source 需設為 "GitHub Actions"。
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'public/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
