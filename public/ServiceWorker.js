@@ -1,9 +1,9 @@
 const cacheName = "oupchina-Oxford_ NJSCI_Web_3DSolarSystem-0.1.0";
 const contentToCache = [
     "Build/Web_Solar.loader.js",
-    "Build/Web_Solar.framework.js.unityweb",
-    "Build/Web_Solar.data.unityweb",
-    "Build/Web_Solar.wasm.unityweb",
+    "Build/Web_Solar.framework.js",
+    "Build/Web_Solar.data",
+    "Build/Web_Solar.wasm",
     "TemplateData/style.css"
 
 ];
