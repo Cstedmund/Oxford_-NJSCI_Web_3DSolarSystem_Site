@@ -1,0 +1,15 @@
+{
+    "name": "Oxford_ NJSCI_Web_3DSolarSystem",
+    "short_name": "Oxford_ NJSCI_Web_3DSolarSystem",
+    "start_url": "index.html",
+    "display": "fullscreen",
+    "background_color": "#002147",
+    "theme_color": "#000",
+    "description": "",
+    "icons": [{
+      "src": "TemplateData/icons/unity-logo-dark.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }]
+  }
