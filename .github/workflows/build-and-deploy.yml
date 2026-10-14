@@ -1,8 +1,5 @@
 name: Build WebGL from private source and Deploy to Pages
 
-# ⚠️ 這個檔案要放到「公開 repo」：Oxford_-NJSCI_Web_3DSolarSystem_Site
-#    路徑：.github/workflows/build-and-deploy.yml
-#
 # 觸發時機：
 #   1. 由私人 repo 發送的 repository_dispatch (event-type: build-webgl)
 #   2. 手動在 Actions 頁面點 "Run workflow"
