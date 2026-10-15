@@ -1,9 +1,9 @@
 const cacheName = "oupchina-Oxford_ NJSCI_Web_3DSolarSystem-0.1.2";
 const contentToCache = [
-    "Build/9cbcddbfa9e346f726bb3d4f1d15f0d2.loader.js",
-    "Build/7cd3e39305526735825859a552f9c327.framework.js",
-    "Build/ab1320388d537906f32c11d58e41551d.data",
-    "Build/381de44a58366eae739c582ea69991d2.wasm",
+    "Build/032c63f5ac7f9981c259cc12c1af3b12.loader.js",
+    "Build/adeb2de7992b0886f3c4ec5f047f686d.framework.js",
+    "Build/2b871ca15fc64e567cb5734dd4d824ac.data",
+    "Build/168a571f65c9cff7b9dff99a929b0d8d.wasm",
     "TemplateData/style.css"
 
 ];
