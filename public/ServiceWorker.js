@@ -1,4 +1,4 @@
-const cacheName = "oupchina-Oxford_ NJSCI_Web_3DSolarSystem-0.1.0";
+const cacheName = "oupchina-Oxford_ NJSCI_Web_3DSolarSystem-0.1.1";
 const contentToCache = [
     "Build/Web_Solar.loader.js",
     "Build/Web_Solar.framework.js",
